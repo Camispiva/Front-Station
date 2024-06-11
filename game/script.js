@@ -2,7 +2,7 @@ var regras = document.getElementsByClassName("regras")[0];
 function mostraregras() {
     regras.style.display = "flex";
 }
-function fecharegras() {
+function fecharregras() {
     regras.style.display = "none";
 }
 var jogo = document.getElementsByClassName("jogo")[0];
@@ -55,7 +55,7 @@ function jogar(num) {
         test1.value = house.value
 
 
-        
+        //Partida
     setTimeout(() => {
         Resolucao()
     }, 500);
